@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import avatar from '../imgs/myAvatar.svg';
 import jspng from '../imgs/js.png';
 import html5 from '../imgs/html5.png';
 import css3 from '../imgs/css3.png';
