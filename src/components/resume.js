@@ -144,7 +144,7 @@ const Resume = () => {
         <>
         <Container lang="en">
             <h2>Profile</h2>
-            <p className="profile">Junior developer proficient in HTML, CSS, Javascript and React and with some experience working with MySQL, PHP, Node and Firebase.</p>
+            <p className="profile">Junior developer proficient in HTML, CSS, Javascript and React with some experience working with MySQL, PHP, Node and Firebase.</p>
             <p className="profile">
                 Challanges and new Ideas drive my motivation.
             </p>
