@@ -40,8 +40,8 @@ const Portfolio = () => {
 
                 <Div onClick={() => {window.open("https://bjr-crypto-cotizador.netlify.app/", "_blank")}}>
                 <img alt="" src={crypto} />
-                <p className="legend" lang="es">Weather app with React</p>
-                <p className="legend" lang="en">Weather app con React</p>
+                <p className="legend" lang="es">Cotizador de Cryptos</p>
+                <p className="legend" lang="en">Crypto Quoter</p>
                 </Div>
                 
                 <Div onClick={() => {window.open("https://bjr-clima-api.netlify.app/", "_blank")}}>
