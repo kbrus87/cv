@@ -2,9 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Portfolio from './portfolio';
+import sfc from '../imgs/SFC.jpg';
 
 const Container = styled.div`
         margin: 3rem 3rem 3rem 3rem;
+        
         h2{
             font-weight:bold;
             letter-spacing:0.5rem;
@@ -17,8 +19,10 @@ const Container = styled.div`
         }
         
         @media(min-width:768px){
-            margin: 5rem 10rem 5rem 10rem;
+            margin: 5rem 10rem 5rem 5rem;
+            
         }
+       
 
         p.profile{
             font-style:oblique;
@@ -132,7 +136,7 @@ const OtherKnow = styled.ul`
     a{
         text-decoration:none;
         font-style:italic;
-        color:inherit;
+        color:blue;
     }
     
 `;
@@ -214,6 +218,12 @@ const Resume = () => {
                         <a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener noreferrer" > Machine Learning by Stanfor University</a>
                     </h5>
                 </li>
+                
+                <li>
+                    <h5><span>SCRUM Fundamentals Certified</span>
+                        <a href={sfc} target="_blank" rel="noopener noreferrer" > Certificate  </a>
+                    </h5>
+                </li>
             </OtherKnow>
         </Container>
         <Container lang="es">
@@ -282,6 +292,11 @@ const Resume = () => {
                 <li>
                     <h5><span>Coursera Course</span>
                         <a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener noreferrer" > Machine Learning by Stanfor University</a>
+                    </h5>
+                </li>
+                <li>
+                    <h5><span>SCRUM Fundamentals Certified</span>
+                        <a href={sfc} target="_blank" rel="noopener noreferrer" > Certificate  </a>
                     </h5>
                 </li>
             </OtherKnow>

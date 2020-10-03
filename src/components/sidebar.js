@@ -9,6 +9,7 @@ import node from '../imgs/node.png';
 import reactpng from '../imgs/react.png';
 import github from '../imgs/github.svg';
 import profilepic from '../imgs/profilepic.png';
+import sfc from '../imgs/SFC.jpg';
 
 
 const Container = styled.div`
@@ -20,7 +21,15 @@ const Container = styled.div`
     align-items:center;
     margin:0;
     margin-top:2rem;
-
+    
+    padding:1rem;
+    color:white;
+    min-width:350px;
+    max-width:30%;
+    
+    position:sticky;
+    font-family: 'Noto Serif', serif;
+    
     @media (max-width: 768px) {
     flex-direction: row;
     width:100%;
@@ -28,12 +37,6 @@ const Container = styled.div`
     max-width:100%;
     }
 
-    /*height:100vh;*/
-    padding:1rem;
-    color:white;
-    min-width:350px;
-    max-width:30%;
-    font-family: 'Noto Serif', serif;
     .details{
         background: rgba(255, 255, 255, 0.15); 
         backdrop-filter: blur(8px);
@@ -59,11 +62,15 @@ const List = styled.ul`
     padding:0.5rem;
     display:flex;
     flex-direction:column;
-      
+    
   
     border-radius:15px;
     padding-left:1rem;
+    margin-top:2rem;
 
+    @media(min-width:400px){
+        margin:1rem auto;
+    }
     .title{
         font-weight:bold;
         
@@ -82,8 +89,14 @@ const List = styled.ul`
         padding:0;
         margin:0.3rem;
         max-width:40px;
-
-        
+    }
+    .certificate img{
+        @media(min-width:768px){
+            max-width:100%;
+        }
+        padding:0;
+        margin:0.3rem;
+        max-width:100%;
     }
     img.git{
         background-color:white;
@@ -116,11 +129,7 @@ const List = styled.ul`
         color:white;
         
     }
-    margin-top:2rem;
-
-    @media(min-width:400px){
-        margin:1rem auto;
-    }
+    
 `
 
 const Li = styled.li`
@@ -281,7 +290,7 @@ const Sidebar = () => {
     return (
         <Container>
             <Avatar src={profilepic} />
-            <List className="details">
+            <List className="details ">
                 <Li><h1 className="name">Bruno Ramari</h1></Li>
                 <Li><h3 className="job">Front End Developer</h3></Li>
                 <Li><PhoneIcon/><h5>(+54) 341 2292261</h5></Li>
@@ -304,7 +313,13 @@ const Sidebar = () => {
 
                 <Li><h2 className="title git">My Github</h2></Li>
                 <Li className="skill git"><a href="https://github.com/kbrus87" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="git"/><p>@kbrus87</p></a></Li>
-            </List>
+            <div className="mt-4">
+                <Li><h2 className="title git">Certificates</h2></Li>
+                <Li className="certificate"><a href={sfc} target="blank"><img src={sfc} alt="scrum fundamentals certificate"/></a></Li>
+           
+            </div>
+                </List>
+            
         </Container>
     );
 }

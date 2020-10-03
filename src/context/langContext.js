@@ -11,7 +11,7 @@ const LangProvider = (props) => {
     const textEn = Array.from(document.querySelectorAll('[lang="en"]')).slice(1, 1000);
     const textEs = Array.from(document.querySelectorAll('[lang="es"]'));
 
-    console.log(textEn, textEs)
+    //console.log(textEn, textEs)
 
     switch (lang) {
       case "en":
