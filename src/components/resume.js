@@ -209,6 +209,11 @@ const Resume = () => {
                         <a href="https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/" target="_blank" rel="noopener noreferrer" > MERN stack based Web Development  </a>
                     </h5>
                 </li>
+                <li>
+                    <h5><span>Coursera Course</span>
+                        <a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener noreferrer" > Machine Learning by Stanfor University</a>
+                    </h5>
+                </li>
             </OtherKnow>
         </Container>
         <Container lang="es">
