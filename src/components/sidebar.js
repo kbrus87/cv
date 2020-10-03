@@ -114,6 +114,10 @@ const List = styled.ul`
         border-radius:15% 5% 5% 5%;
         padding:0;
         margin:0;
+        transition: transform 0.3s ease-out;
+        &:hover{
+            transform:scale(1.05)
+        }
     }
     li p{
         padding:0;

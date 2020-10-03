@@ -19,7 +19,7 @@ const Container = styled.div`
         }
         
         @media(min-width:768px){
-            margin: 5rem 10rem 5rem 5rem;
+            margin: 5rem 10rem 5rem 8rem;
             
         }
        
