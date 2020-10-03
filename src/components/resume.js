@@ -280,7 +280,7 @@ const Resume = () => {
                     </h5>
                 </li>
             </OtherKnow>
-        </Container>
+        </Container> 
         </>
      );
 }
