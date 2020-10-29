@@ -148,7 +148,7 @@ const Resume = () => {
         <>
         <Container lang="en">
             <h2>Profile</h2>
-            <p className="profile">Junior developer proficient in HTML, CSS, Javascript and React with some experience working with MySQL, PHP, Node and Firebase.</p>
+            <p className="profile">Web Developer proficient in HTML, CSS, Javascript and React with some experience working with MySQL, PHP, Node and Firebase.</p>
             <p className="profile">
                 Challanges and new Ideas drive my motivation.
             </p>
@@ -228,7 +228,7 @@ const Resume = () => {
         </Container>
         <Container lang="es">
             <h2>Perfil</h2>
-            <p className="profile">Desarrollador Junior con competencias en HTML, CSS, Javascript y React principalmente y con alguna experiencia trabajando con MySQL, PHP, Node y Firebase.</p><p className="profile"> Me motivan los desafíos y las ideas nuevas.</p>
+            <p className="profile">Desarrollador Web con competencias en HTML, CSS, Javascript y React principalmente y con alguna experiencia trabajando con MySQL, PHP, Node y Firebase.</p><p className="profile"> Me motivan los desafíos y las ideas nuevas.</p>
             
             <Portfolio />
             <EmploymentHistory>
