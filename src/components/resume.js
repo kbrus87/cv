@@ -160,11 +160,14 @@ const Resume = () => {
                     <h3 className="jobTitle">Mechanical Integrity Inspector at BRUKE S.A.</h3>
                     <p className="timeframe">December 2012 - Present</p>
                     <p className="description">
+                        Developed Nodejs scripts to improve efficiency for repetitive tasks involving document creation and maintenance.
+                    </p>
+                    <p className="description">
                         Pressure vessel, pipeline, concrete  and welding inspector using non destructive testing techniques as per ASME VIII and other standards.
                     </p>
                     <p className="description">
                         Technology leader responsable for incorporation and selection of new technologies, personnel training in said technologies and development of procedures for advances techniques.
-                        </p>
+                    </p>
                 </li>
                 <li>
                     <h3 className="jobTitle">PC repair technician at FIREHEAD GROUP</h3>
@@ -236,6 +239,9 @@ const Resume = () => {
                 <li>
                     <h3 className="jobTitle">Inspector de Integridad Mecánica en BRUKE S.A.</h3>
                     <p className="timeframe">Diciembre 2012 - Presente</p>
+                    <p className="description">
+                       Desarrollo de scripts en nodejs para aumentar la eficiencia de tareas que involucran la creacion y mantenimiento de documentacion.
+                    </p>
                     <p className="description">
                         Inspector de recipientes sometidos a presion, gasoductos, estructuras de hormigón y soldadura por medio de ensayos no destructivos según ASME VIII y otros códigos.
                     </p>
